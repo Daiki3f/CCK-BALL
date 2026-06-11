@@ -7,7 +7,7 @@
 &kp TAB           &kp Q         &kp W         &kp E       &kp R      &kp T   &kp Y   &kp U      &kp I      &kp O           &kp P           &kp SEMI
 &kp CAPSLOCK      &kp A         &kp S         &kp D       &kp F      &kp G   &kp H   &kp J      &kp K      &kp L           &kp MINUS       &kp SQT
 &kp LEFT_SHIFT    &kp Z         &kp X         &kp C       &kp V      &kp B   &kp N   &kp M      &kp COMMA  &kp DOT         &kp FSLH        &kp UP_ARROW
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 &kp DELETE  &lt 1 &kp SPACE  &to 1   &mkp MB1   &mkp MB2  &lt 3 &kp RETURN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 DELETE  &lt 1 SPACE  &to 1   &mkp MB1   &mkp MB2  &lt 3 RETURN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -55,7 +55,7 @@
 &trans    &kp Q         &kp W         &kp E       &kp R      &kp T   &kp Y   &kp U      &kp I      &kp O           &kp P           &trans
 &trans    &kp A         &kp S         &kp D       &lt 3 F    &kp G   &kp H   &kp J      &kp K      &kp L           &kp MINUS       &trans
 &trans    &kp Z         &kp X         &kp C       &kp V      &kp B   &kp N   &kp M      &kp COMMA  &kp DOT         &kp FSLH        &trans
-&trans  &trans  &trans  &lt 2 &kp DELETE  &lt 1 &kp SPACE  &to 0  &kp RCTRL  &kp RSHIFT  &lt 3 &kp RETURN  &trans  &trans  &trans
+&trans  &trans  &trans  &lt 2 DELETE  &lt 1 SPACE  &to 0 RCTRL  &kp RSHIFT  &lt 3 RETURN  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&scroll_vertical_encoder>,   // 编码器1：上下滚动
