@@ -1,4 +1,4 @@
-                keymap {
+    keymap {
         compatible = "zmk,keymap";
 
         QWERTY {
