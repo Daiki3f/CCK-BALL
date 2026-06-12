@@ -101,8 +101,8 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LT  &kp LBRC  &kp LBKT  &kp LPAR  &kp DQT  &kp SQT  &kp RPAR  &kp RBKT  &kp RBRC  &kp GT  &trans
-&trans  &kp MINUS  &kp UNDER  &kp EQUAL  &kp PLUS  &kp COLON  &kp SEMI  &kp FSLH  &kp BSLH  &kp STAR  &kp EXCL  &trans
+&trans  &kp RBRC  &kp RBKT  &kp LT  &kp STAR  &kp DQT  &kp FSLH  &kp LPAR  &kp GT  &kp BSLH  &trans  &trans
+&trans  &kp LBRC  &kp EQUAL  &kp PLUS  &kp UNDER  &kp COLON  &kp MINUS  &kp SQT  &kp SEMI  &kp EXCL  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
