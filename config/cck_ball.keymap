@@ -63,7 +63,7 @@
 
         F_layers {
             bindings = <
-&kp F12  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6     &kp F7     &kp FSLH  &kp KP_MULTIPLY  &kp F10  &kp F11
+&kp F12  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6     &kp F7     &kp FSLH  &kp KP_MULTIPLY  &kp F10  &trans
 &trans   &kp N1   &kp N2   &kp N3   &kp N4   &kp N5  &kp N6      &kp N7      &kp N8   &kp N9  &kp MINUS   &trans
 &trans   &none   &none   &none   &none   &trans  &mkp LCLK  &kp N4  &kp N5  &kp N6  &kp PLUS   &trans
 &trans   &trans  &trans  &trans  &trans  &none   &kp N0      &kp N1      &kp N2  &kp N3  &kp RETURN    &trans
@@ -75,7 +75,7 @@
 
         BT_layers {
             bindings = <
-&bt BT_CLR_ALL  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans      &trans  &trans  &trans  &trans  &kp W
+&bt BT_CLR_ALL  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans      &trans  &trans  &trans  &trans  &trans
 &trans  &trans          &kp UP        &trans        &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans
 &trans  &kp LEFT  &kp DOWN        &kp RIGHT        &trans        &trans        &kp HOME      &kp PG_DN  &kp PG_UP  &kp END  &trans  &trans
 &trans  &trans          &trans        &bt BT_CLR    &trans        &trans        &bt BT_NXT  &trans  &trans  &trans  &trans  &trans
