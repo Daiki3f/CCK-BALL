@@ -102,7 +102,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp RBRC  &kp RBKT  &kp LT  &kp STAR  &kp DQT  &kp FSLH  &kp LPAR  &kp GT  &kp BSLH  &kp LS(BSLH)  &trans
-&trans  &kp LBRC  &kp EQUAL  &kp PLUS  &kp UNDER  &kp COLON  &kp MINUS  &kp SQT  &kp SEMI  &kp EXCL  &trans  &trans
+&trans  &kp LBRC  &kp EQUAL  &kp PLUS  &kp UNDER  &kp COLON  &kp MINUS  &kp SQT  &kp SEMI  &kp EXCL  &kp INT3  &kp RSHIFT
 &trans  &kp PSCRN  &kp LG(LS(S))  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &trans  &trans  &trans  &trans
             >;
 
