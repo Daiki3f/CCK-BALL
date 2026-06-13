@@ -91,7 +91,7 @@
 &trans  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &trans
 &trans  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp MINUS  &trans
 &trans  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &trans
-&trans  &trans  &trans  &lt 4 DELETE  &lt 1 SPACE  &to 0  &kp RCTRL  &lt 4 RSHIFT  &lt 2 RETURN  &trans  &trans  &trans
+&trans  &trans  &trans  &lt 4 DELETE  &lt 4 SPACE  &to 0  &kp RCTRL  &lt 4 RSHIFT  &lt 2 RETURN  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
