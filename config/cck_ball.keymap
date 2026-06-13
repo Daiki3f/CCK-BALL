@@ -67,7 +67,7 @@
 &trans   &kp N1   &kp N2   &kp N3   &kp N4   &kp N5  &kp N6      &kp N7      &kp N8   &kp N9  &kp N0   &trans
 &trans   &none   &none   &none   &none   &trans  &mkp LCLK  &kp N4  &kp N5  &kp N6  &kp PLUS   &kp MINUS
 &trans   &trans  &trans  &trans  &trans  &none   &kp N0      &kp N1      &kp N2  &kp N3  &kp RETURN    &trans
-&bootloader   &trans  &trans  &trans  &trans  &to 3  &trans  &mkp RCLK  &trans  &kp N0  &trans   &bootloader
+&bootloader   &trans  &kp C_MUTE  &trans  &trans  &to 3  &trans  &mkp RCLK  &trans  &kp N0  &trans   &bootloader
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -79,7 +79,7 @@
 &trans  &trans          &kp UP        &trans        &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans
 &trans  &kp LEFT  &kp DOWN        &kp RIGHT        &trans        &trans        &kp HOME      &kp PG_DN  &kp PG_UP  &kp END  &trans  &trans
 &trans  &trans          &trans        &bt BT_CLR    &trans        &trans        &bt BT_NXT  &trans  &trans  &trans  &trans  &trans
-&bootloader  &trans          &trans        &trans        &trans        &trans        &trans      &trans  &trans  &trans  &trans  &bootloader
+&bootloader  &trans          &kp C_MUTE        &trans        &trans        &trans        &trans      &trans  &trans  &trans  &trans  &bootloader
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
