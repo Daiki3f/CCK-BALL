@@ -6,10 +6,9 @@ sym対応表
 -=^~+;/](!
 
 
-CLL-BALL 配列
-&trans  &kp RBRC  &kp RBKT  &kp LT  &kp STAR  &kp DQT  &kp FSLH  &kp LPAR  &kp GT  &kp BSLH  &trans  &trans
-&trans  &kp LBRC  &kp EQUAL  &kp PLUS  &kp UNDER  &kp COLON  &kp MINUS  &kp SQT  &kp SEMI  &kp EXCL  &trans  &trans
+CLL-BALL sym-layouts配列
+&trans  &kp RBRC  &kp RBKT  &kp LT  &kp STAR  &kp DQT  &kp FSLH  &kp LPAR  &kp GT  &kp BSLH  &kp LS(BSLH)  &trans
+&trans  &kp LBRC  &kp EQUAL  &kp PLUS  &kp UNDER  &kp COLON  &kp MINUS  &kp SQT  &kp SEMI  &kp EXCL  &kp INT3  &kp INT1
 
-{[<(*/)>]
-`^~=+-:;!
-
+{[<(*/)>]}
+`^~=+-:;!\_
