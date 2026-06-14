@@ -88,10 +88,10 @@
         scroll-layers {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &trans
-&trans  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp MINUS  &trans
-&trans  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &trans  &kp RSHIFT
-&trans  &trans  &trans  &lt 4 DELETE  &lt 4 SPACE  &to 0  &lt 1 ESC  &lt 2 SPACE  &lt 2 RETURN  &trans  &trans  &trans
+&trans  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp BACKSPACE
+&trans  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp MINUS  &kp RETURN
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &trans  &kp RSHIFT
+&trans  &trans  &trans  &trans  &lt 4 SPACE  &to 0  &lt 1 ESC  &lt 2 SPACE  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -111,3 +111,4 @@
         };
     };
 };
+ 
