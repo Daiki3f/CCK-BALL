@@ -63,11 +63,11 @@
 
         F_layers {
             bindings = <
-&kp F10  &kp F11  &kp F2  &kp F12  &kp F4  &kp F5  &kp F6     &kp F7     &kp FSLH  &kp KP_MULTIPLY  &kp F10  &trans
-&trans   &kp N1   &kp N2   &kp N3   &kp N4   &kp N5  &kp N6      &kp N7      &kp N8   &kp N9  &kp N0   &trans
-&trans   &none   &none   &none   &none   &trans  &mkp LCLK  &kp N4  &kp N5  &kp N6  &kp PLUS   &kp MINUS
+&kp F10  &kp F11  &kp F2  &kp F12  &kp F4  &kp F5  &kp F6     &kp F7     &kp FSLH  &kp KP_MULTIPLY  &kp MINUS  &trans
+&trans   &kp N1   &kp N2   &kp N3   &kp N4   &kp N5  &kp N6      &kp N7      &kp N8   &kp N9  &kp PLUS   &trans
+&trans   &none   &none   &none   &none   &trans  &mkp LCLK  &kp N4  &kp N5  &kp N6  &kp PLUS   &trans
 &trans   &trans  &trans  &trans  &trans  &none   &kp N0      &kp N1      &kp N2  &kp N3  &kp RETURN    &trans
-&trans   &trans  &kp C_MUTE  &trans  &trans  &to 3  &trans  &mkp RCLK  &trans  &kp N0  &trans   &trans
+&trans   &trans  &kp C_MUTE  &trans  &trans  &to 3  &trans  &mkp RCLK  &trans  &kp N0  &kp RETURN   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
